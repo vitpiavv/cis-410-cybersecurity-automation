@@ -4,7 +4,7 @@
 
 - **Name:** Vitaliy Piankov
 
-- **GitHub Username:** vitpia03
+- **GitHub Username:** vitpiavv
 
 - **Major:** Cybersecurity
 

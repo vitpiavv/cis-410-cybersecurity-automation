@@ -27,3 +27,15 @@ infrastructure as code, and cloud deployment.
 ## Fun Fact
 
 I play the bass guitar
+
+
+
+## My Week 2 Infrastructure
+
+ 
+
+Runner VM: vitpia-runner
+
+Runner IP: 192.168.1.141 #fake ip
+
+Pipeline status: [![Hello Pipeline](https://github.com/vitpiavv/cis-410-cybersecurity-automation/actions/workflows/hello-pipeline.yml/badge.svg)](https://github.com/vitpiavv/cis-410-cybersecurity-automation/actions/workflows/hello-pipeline.yml)

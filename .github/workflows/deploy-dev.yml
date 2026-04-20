@@ -42,7 +42,7 @@ jobs:
 
     steps:
 
-      # ── Step 1: Check out the latest code ──────────────────────────────────
+      # ── Step 1: Check out the latest code changing so push retriggers──────────────────────────────────
 
       # Makes the repository files available on the runner for the scp step.
 

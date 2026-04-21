@@ -139,10 +139,10 @@ jobs:
    
 
       - name: Validate key format
-          run: |
-            printf "%s" "${{ secrets.DEV_SSH_KEY }}" > /tmp/deploy_key
-            chmod 600 /tmp/deploy_key
-            ssh-keygen -l -f /tmp/deploy_key
+        run: |
+          printf "%s" "${{ secrets.DEV_SSH_KEY }}" > /tmp/deploy_key
+          chmod 600 /tmp/deploy_key
+          ssh-keygen -l -f /tmp/deploy_key
         
 
       - name: Install Docker on Dev VM

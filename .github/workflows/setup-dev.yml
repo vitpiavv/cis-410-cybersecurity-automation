@@ -124,6 +124,21 @@ jobs:
 
       # The 'if ! command -v docker' guard makes this step safe to re-run.
 
+
+      - name: testing ssh 
+
+        run: |
+
+          echo "${{ secrets.DEV_SSH_KEY }}" > /tmp/deploy_key
+
+          chmod 600 /tmp/deploy_key
+
+          ssh -vvv -i /tmp/deploy_key -o StrictHostKeyChecking=no \
+
+            ${{ secrets.DEV_USER }}@${{ secrets.DEV_HOST }} << 'EOF'
+
+         
+
       - name: Install Docker on Dev VM
 
         run: |

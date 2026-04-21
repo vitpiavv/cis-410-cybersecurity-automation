@@ -138,6 +138,13 @@ jobs:
      #       ${{ secrets.DEV_USER }}@${{ secrets.DEV_HOST }} << 'EOF'
    
 
+      - name: Debug SSH key
+        run: |
+          echo "${{ secrets.DEV_SSH_KEY }}" > /tmp/deploy_key
+          chmod 600 /tmp/deploy_key
+          head -n 3 /tmp/deploy_key
+        
+
       - name: Install Docker on Dev VM
 
         run: |

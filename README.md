@@ -36,6 +36,6 @@ I play the bass guitar
 
 Runner VM: vitpia-runner
 
-Runner IP: 192.168.1.141 #fake ip
+Runner IP: 192.168.1.141 
 
 Pipeline status: [![Hello Pipeline](https://github.com/vitpiavv/cis-410-cybersecurity-automation/actions/workflows/hello-pipeline.yml/badge.svg)](https://github.com/vitpiavv/cis-410-cybersecurity-automation/actions/workflows/hello-pipeline.yml)
